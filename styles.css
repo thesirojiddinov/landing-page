@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    background-color: #1F2937;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.left-links {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.right-links {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+header p {
+    margin: 0px;
+}
+
+/* Hero page */
+.hero-page {
+    background-color: #1F2937;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding-bottom: 50px;
+}
+
+.hero-page p {
+    margin: 0;
+}
+
+.hero-headline {
+    font-size: 48px;
+    font-weight: 600;
+    color: #f9faf8;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-message {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.hero-message button {
+    max-width: 120px;
+    margin-top: 10px;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    border-radius: 8px;
+}
+
+.hero-image img {
+    height: 200px;
+}
