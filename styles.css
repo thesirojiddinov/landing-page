@@ -192,3 +192,13 @@ header p {
     border-radius: 8px;
     padding: 9px 18px;
 }
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    color: white;
+}
