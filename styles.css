@@ -86,3 +86,44 @@ header p {
 .hero-image img {
     height: 200px;
 }
+
+/* Cards Section */
+.cards-section {
+    height: 450px;
+}
+
+.some-random {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    margin-top: 16px;
+    font-size: 14px;
+    padding: 8px;
+
+}
+
+.card img {
+    border: #3882f6 3px solid;
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
