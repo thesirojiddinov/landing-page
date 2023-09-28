@@ -151,3 +151,44 @@ header p {
     margin-left: auto;
     margin-right: 350px;
 }
+
+/* CTA Section */
+.cta-section {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    height: 150px;
+    width: 900px;
+}
+
+.cta-main-text {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.cta-second-text {
+    font-size: 18px;
+    color: #fff;
+}
+
+.cta-sign-up {
+    max-width: 120px;
+    margin-top: 10px;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #3882f6;
+    border: #fff 2px solid;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 9px 18px;
+}
